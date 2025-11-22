@@ -1,0 +1,17 @@
+{
+  "name": "my-pact-project",
+  "version": "1.0.0",
+  "description": "Pact Contract Testing Example",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "pact:consumer:test": "jest",
+    "pact:provider:test": "jest provider.test.js",
+    "start": "node server.js",
+    "dev": "nodemon server.js"
+  },
+  "devDependencies": {
+    "@pact-foundation/pact": "^12.0.0",
+    "jest": "^29.7.0"
+  }
+}
